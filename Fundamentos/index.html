@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <h3>Menu</h3>
-    <ul>
+    <h2>Menu</h2>
+    <ul class="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -20,27 +24,39 @@
         </li>
     </ul>
 
-    <h1>Sobre mim</h1>
-    <div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officia reiciendis sed. Earum repudiandae
-            mollitia hic? Est deserunt non corporis ad nostrum dolores, iste reiciendis recusandae sapiente repellat
-            ratione hic?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa velit molestiae vel dolore voluptas omnis
-            quaerat fuga praesentium, fugit tempora cupiditate odit culpa minima veritatis ullam possimus, incidunt
-            deserunt laboriosam.
-        </p>
+    <h1 class="about">Sobre mim</h1>
+    <div class="container">
+        <div class="p1">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officia reiciendis sed. Earum repudiandae
+                mollitia hic? Est deserunt non corporis ad nostrum dolores, iste reiciendis recusandae sapiente repellat
+                ratione hic?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa velit molestiae vel dolore voluptas omnis
+                quaerat fuga praesentium, fugit tempora cupiditate odit culpa minima veritatis ullam possimus, incidunt
+                deserunt laboriosam.
+            </p>
+        </div>
+        <div>
+            <img src="assets/k2VYzdxU_400x400.jpg" alt="Minha foto" class="border wh">
+        </div>
     </div>
-    <img src="assets/k2VYzdxU_400x400.jpg" alt="Minha foto">
-    <h2>Não é atoa que ele foi o simbolo da paz!!!</h2>
-    <div>
+    <h2 class="center">Não é atoa que ele foi o simbolo da paz!!!</h2>
+    <div class="video">
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CDW2ReQZOQU"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
+    <hr>
+    <footer class="center">
+        <p>Todos os direitos reservado: Gustavo Freitas &copy;</p>
+        <div>
+            <a href="https://www.linkedin.com/in/gustavo-freitas22/" target="blank"> <img src="./assets/linkedin.png" alt="Logo linkedin"class="social"></a>
+            <a href="https://twitter.com/Gu_freitas22" target="blank"><img src="./assets/twitter.png" alt="Logo twitter"class="social"></a>
+        </div>
+    </footer>
 </body>
 
 </html>

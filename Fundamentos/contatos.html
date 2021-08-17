@@ -1,33 +1,67 @@
-<h3>Menu</h3>
-<ul>
-    <li>
-        <a href="index.html">Home</a>
-    </li>
-    <li>
-        <a href="contatos.html">Contatos</a>
-    </li>
-</ul>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<h1>Entre em contato comigo</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
 
-<form>
-    <label for="nome">Nome</label><br>
-    <input type="text" id="nome">
-    <br>
-    <br>
-    <label for="email">E-mail</label><br>
-    <input type="email" id="email">
-    <br>
-    <br>
-    <label for="assunto">Assunto</label> <br>
-    <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-    <br>
-    <br>
-    <button>Enviar</button>
-</form>
+<body>
 
-<h2>Endereço:</h2>
+    <h2>Menu</h2>
+    <ul class="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="contatos.html">Contatos</a>
+        </li>
+    </ul>
+    <hr>
+<h1 class="center">Entre em contato comigo</h1>
 
-<iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47798.11758558013!2d-46.56232485047839!3d-23.578638616706478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e802fcb4339%3A0x9abe00ac4133a5f4!2sClube%20Recreativo%20CERET!5e0!3m2!1spt-BR!2sbr!4v1629209539113!5m2!1spt-BR!2sbr"
-    width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div class="container mrg-bottom">
+
+    '<div>
+        <form>
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome">
+            <br>
+            <br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="assunto">Assunto</label> <br>
+            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <button>Enviar</button>
+        </form>
+        
+    </div>
+    <div class="mrg-Left">
+        <p>Onde me encontrar:</p>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47798.11758558013!2d-46.56232485047839!3d-23.578638616706478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e802fcb4339%3A0x9abe00ac4133a5f4!2sClube%20Recreativo%20CERET!5e0!3m2!1spt-BR!2sbr!4v1629209539113!5m2!1spt-BR!2sbr"
+        width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+</div>
+<hr>
+    <footer class="center">
+        <p>Todos os direitos reservado: Gustavo Freitas &copy;</p>
+        <div>
+            <a href="https://www.linkedin.com/in/gustavo-freitas22/" target="blank"> <img src="./assets/linkedin.png" alt="Logo linkedin"class="social"></a>
+            <a href="https://twitter.com/Gu_freitas22" target="blank"><img src="./assets/twitter.png" alt="Logo twitter"class="social"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
