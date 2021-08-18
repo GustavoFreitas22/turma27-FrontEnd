@@ -1,6 +1,6 @@
 *{
     font-family: 'Oswald', sans-serif;
-    background-color: #ffe8d6;
+    background-color: #fff
 }
 
 .container{
@@ -20,7 +20,7 @@
 .menu li a{
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 35px;
 }
 .menu li a:hover{
     color: rgb(230, 49, 64);
@@ -53,4 +53,11 @@
 }
 .mrg-bottom{
     margin-bottom: 150px;
+}
+
+form input{
+    border-radius: 30px;
+}
+form button{
+    border-radius: 30px;
 }
